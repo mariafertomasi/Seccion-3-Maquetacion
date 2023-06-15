@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+    color: darkblue;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 86, 216);
+    font-size: 36px;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 79, 224)
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: 10px;
+
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(117, 6, 214));
+    font-size: 26px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
